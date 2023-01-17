@@ -66,7 +66,10 @@ lookup = {"ANA": ["NHL|ANA"],
                   "NYI","OTT","PHI","PIT","SEA","SJ","STL","TB","TOR","VAN","WAS","WPG"],
           "NBA": ["ATL","BKN","BOS","CHA","CHI","CLE","DAL","DEN","DET",
                   "HOU","IND","LAL","LAC","MEM","MIA","MIL","MIN","NOP","NYK","OKC",
-                  "ORL","PHI","PHX","POR","SAC","SAS","GSW","TOR","UTA","WAS"]}
+                  "ORL","PHI","PHX","POR","SAC","SAS","GSW","TOR","UTA","WAS"]
+
+
+          }
 
 
 Valid_City = False
