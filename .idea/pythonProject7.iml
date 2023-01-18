@@ -4,6 +4,10 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="module" module-name="pythonProject8" />
+=======
+    <orderEntry type="module" module-name="pythonProject9" />
+>>>>>>> origin/main
   </component>
 </module>

@@ -1,40 +1,40 @@
 #lines 1-63, dictionary of cities teams.
 lookup = {"ANA": ["NHL|ANA"],
-          "ARI": ["NHL|ARI", "NFL|ARI", "MLB|ARI"],
-          "ATL": ["NBA|ATL", "NFL|ATL", "MLB|ATL", "MLS|ATL"],
+          "ARI": ["NHL|ARI","NFL|ARI","MLB|ARI"],
+          "ATL": ["NBA|ATL","NFL|ATL","MLB|ATL","MLS|ATL"],
           "AUS": ["MLS|AUS"],
-          "BAL": ["NFL|BAL", "MLB|BAL"],
+          "BAL": ["NFL|BAL","MLB|BAL"],
           "BKN": ["NBA|BKN"],
-          "BOS": ["NHL|BOS", "NBA|BOS", "MLB|BOS"],
-          "BUF": ["NHL|BUF", "NFL|BUF"],
+          "BOS": ["NHL|BOS","NBA|BOS","MLB|BOS"],
+          "BUF": ["NHL|BUF","NFL|BUF"],
           "CAL": ["NHL|CGY"],
-          "CAR": ["NHL|CAR", "NFL|CAR"],
-          "CHA": ["NBA|CHA", "MLS|CHA"],
-          "CHI": ["NHL|CHI", "NBA|CHI","NFL|CHI","MLB|CHC","MLS|CHI","MLB|CWS"],
-          "CIN": ["NFL|CIN", "MLB|CIN","MLS|CIN"],
+          "CAR": ["NHL|CAR","NFL|CAR"],
+          "CHA": ["NBA|CHA","MLS|CHA"],
+          "CHI": ["NHL|CHI","NBA|CHI","NFL|CHI","MLB|CHC","MLS|CHI","MLB|CWS"],
+          "CIN": ["NFL|CIN","MLB|CIN","MLS|CIN"],
           "CLB": ["NHL|CBJ", "MLS|CBS"],
-          "CLE": ["NBA|CLE", "NFL|CLE", "MLB|CLE"],
-          "COL": ["NHL|COL", "MLB|COL","MLS|COL"],
-          "DAL": ["NHL|DAL", "NBA|DAL","NFL|DAL","MLS|DAL"],
-          "DEN": ["NBA|DEN", "NFL|DEN"],
-          "DET": ["NHL|DET", "NBA|DET","NFL|DET","MLB|DET"],
+          "CLE": ["NBA|CLE","NFL|CLE","MLB|CLE"],
+          "COL": ["NHL|COL","MLB|COL","MLS|COL"],
+          "DAL": ["NHL|DAL","NBA|DAL","NFL|DAL","MLS|DAL"],
+          "DEN": ["NBA|DEN","NFL|DEN"],
+          "DET": ["NHL|DET","NBA|DET","NFL|DET","MLB|DET"],
           "EDM": ["NHL|EDM"],
-          "FLA": ["NHL|FLA", "MLB|FLA"],
+          "FLA": ["NHL|FLA","MLB|FLA"],
           "GB": ["NFL|GB"],
-          "HOU": ["NBA|HOU", "NFL|HOU","MLB|HOU","MLS|HOU"],
-          "IND": ["NBA|IND", "NFL|IND"],
+          "HOU": ["NBA|HOU","NFL|HOU","MLB|HOU","MLS|HOU"],
+          "IND": ["NBA|IND","NFL|IND"],
           "JAX": ["NFL|JAX"],
-          "KC": ["NFL|KC", "MLB|KAN","MLS|KC"],
-          "LA": ["NHL|LA", "NBA|LAL","NFL|LAR","MLB|LAA","MLS|LA","NBA|LAC","MLS|LAF","MLB|LAD","NFL|LAC"],
-          "LV": ["NHL|VGK", "NFL|LV"],
+          "KC": ["NFL|KC","MLB|KAN","MLS|KC"],
+          "LA": ["NHL|LA","NBA|LAL","NFL|LAR","MLB|LAA","MLS|LA","NBA|LAC","MLS|LAF","MLB|LAD","NFL|LAC"],
+          "LV": ["NHL|VGK","NFL|LV"],
           "MEM": ["NBA|MEM"],
-          "MIA": ["NBA|MIA", "NFL|MIA","MLS|MIA"],
-          "MIL": ["NBA|MIL", "MLB|MIL"],
-          "MIN": ["NHL|MIN", "NBA|MIN","NFL|MIN","MLB|MIN","MLS|MIN"],
-          "MTL": ["NHL|MTL", "MLS|MTL"],
-          "NE": ["NFL|NE", "MLS|NE"],
+          "MIA": ["NBA|MIA","NFL|MIA","MLS|MIA"],
+          "MIL": ["NBA|MIL","MLB|MIL"],
+          "MIN": ["NHL|MIN","NBA|MIN","NFL|MIN","MLB|MIN","MLS|MIN"],
+          "MTL": ["NHL|MTL","MLS|MTL"],
+          "NE": ["NFL|NE","MLS|NE"],
           "NJ": ["NHL|NJ"],
-          "NO": ["NBA|NOP", "NFL|NO"],
+          "NO": ["NBA|NOP","NFL|NO"],
           "NSH": ["NHL|NSH","MLS|NSH"],
           "NY": ["NHL|NYI","NBA|NYK","NFL|NYG","MLB|NYM","MLS|NYR","NHL|NYR","NFL|NYJ","MLB|NYY","MLS|NYF"],
           "OAK": ["MLB|OAK"],
@@ -66,8 +66,7 @@ lookup = {"ANA": ["NHL|ANA"],
                   "NYI","OTT","PHI","PIT","SEA","SJ","STL","TB","TOR","VAN","WAS","WPG"],
           "NBA": ["ATL","BKN","BOS","CHA","CHI","CLE","DAL","DEN","DET",
                   "HOU","IND","LAL","LAC","MEM","MIA","MIL","MIN","NOP","NYK","OKC",
-                  "ORL","PHI","PHX","POR","SAC","SAS","GSW","TOR","UTA","WAS"]          }
-
+                  "ORL","PHI","PHX","POR","SAC","SAS","GSW","TOR","UTA","WAS"]}
 
 
 Valid_City = False
@@ -86,8 +85,6 @@ while Valid_City == False:
             Valid_City = True
     else:
         print("That Is Not A Valid City/League")
-
-
 
 
 
